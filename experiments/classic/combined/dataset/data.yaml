@@ -1,0 +1,6 @@
+path: /Users/pedrohenriquespereira/caries-detection/caries-detection/datasets/caries
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: caries

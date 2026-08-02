@@ -1,0 +1,3 @@
+family,recipe,model,mAP50,mAP50-95,precision,recall,epochs,results_dir,confusion_matrix,confusion_matrix_normalized,timestamp
+none,baseline,yolo26n,0.31537485699719675,0.21098739454102597,0.31460648452318024,0.5286014764383082,50,experiments/none/baseline/results/yolo26n,experiments/none/baseline/results/yolo26n/confusion_matrix.png,experiments/none/baseline/results/yolo26n/confusion_matrix_normalized.png,2026-08-02T14:26:50.178625+00:00
+classic,photometric,yolo26n,0.3212341259834094,0.2274837286238473,0.32730041069890364,0.4787234042553192,50,experiments/classic/photometric/results/yolo26n,experiments/classic/photometric/results/yolo26n/confusion_matrix.png,experiments/classic/photometric/results/yolo26n/confusion_matrix_normalized.png,2026-08-02T17:19:28.816398+00:00
