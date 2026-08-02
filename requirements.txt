@@ -1,0 +1,7 @@
+ultralytics
+albumentations
+opencv-python-headless
+PyYAML
+pandas
+matplotlib
+tqdm

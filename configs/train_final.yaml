@@ -1,0 +1,8 @@
+# Stronger budget for the winning recipe
+model: yolo26s.pt
+imgsz: 640
+epochs: 80
+patience: 20
+seed: 42
+plots: true
+batch: -1
