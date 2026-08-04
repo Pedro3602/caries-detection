@@ -20,8 +20,8 @@ Recipes are **not** checked in. Create them with `scripts/create_experiment.py` 
 
 - `README.md` — what the recipe does + analysis after training
 - `recipe.yaml` — augmentation hyperparameters
-- `dataset/` — pointer to the shared split + (later) previews
-- `results/` — training metrics and weights (later)
+- `dataset/` — pointer to the shared split + optional previews
+- `results/` — training metrics and weights
 
 **Mode (Option C):** recipes store config + previews + results; augmentation is applied online at train time (no full offline expanded dataset in v1).
 
@@ -36,9 +36,10 @@ Recipes are **not** checked in. Create them with `scripts/create_experiment.py` 
 
 ```
 configs/           # shared train knobs (ablation vs final)
-datasets/          # shared YOLO split (generated later)
+datasets/          # shared YOLO split
 experiments/       # family folders; recipes created by create_experiment.py
-scripts/           # prepare / create / run helpers (stubs for now)
+notebooks/         # exploratory training notebook and reported results
+scripts/           # prepare / create / run helpers
 data/              # raw DENTEX archive (local, gitignored)
 ```
 
@@ -115,3 +116,4 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
