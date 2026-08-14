@@ -1,0 +1,8 @@
+# Light budget for ranking augmentation recipes
+model: yolo26n.pt
+imgsz: 640
+epochs: 50
+patience: 15
+seed: 42
+plots: true
+batch: -1
